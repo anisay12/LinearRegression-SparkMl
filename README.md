@@ -39,12 +39,12 @@ Ensure you have the following installed:
 1. **Change Directory:**
    ```python
    import os
-   os.chdir("C:/Users/Anis/Documents/workspace")
+   os.chdir("./workspace")
    ```
 
 2. **Load Dataset:**
    ```python
-   autoData = sc.textFile("file:///C:/Users/Anis/Documents/workspace/USA_Housing.csv")
+   autoData = sc.textFile("./USA_Housing.csv")
    autoData.cache()
    ```
 
